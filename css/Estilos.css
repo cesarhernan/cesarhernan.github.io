@@ -12,6 +12,7 @@ position: fixed  ;
 top:275px;
 z-index:2000;
 }
+
 .social ul{
 list-style:none;
 }
@@ -41,55 +42,6 @@ border-radius: 5px;
 	color: blue;
 	background: white;
 	font: bold 50px verdana, sans-serif;
-}
-
-section{
-float:left;
-background:#000000;
-	border: solid 1px #FFFFFF;
-	height:auto;
-	width:auto;
-	background-size:100% 100%;
-	background-attachment:fixed;
-	margin-top:auto;
-	font-family:"Times New Roman", Times, serif, justyfic;
-	color:#FFFFFF;
-}
-
-#transicion{
-background:url(img/social/facebook.jpg);
-height:100px;
-width:50%;
-margin-top:20px;
-margin-left:25%;
-margin-right:25%;
-border:solid;
-border-radius:5px 5px 5px 5px;
-animation: animado 10s;
--moz-animation: animado 10s;
--webkit-animation: animado 10s;
--webkit-animation-iteration-count:infinite;
-background-size:100% 100%;
-}
-
-@keyframes animado
-{
-0% {left:0px;}
-20% {transition:1s; background:url(img/social/whatsap.jpg) no-repeat center;}
-40% {transition:1s; background: url(img/social/twiter.jpg) no-repeat center;}
-60% {transition:1s; background: url(img/social/instagram.png) no-repeat center;}
-80% {transition:1s; background: url(img/social/google.png) no-repeat center;}
-100% {left:0px;}
-}
-
-@-webkit-keyframes animado
-{
-0%   {left:0px;}
-30%  {transition:1s; background:url(../MULTIMEDIA/103718.jpg) no-repeat center;}
-65%  {transition:1s; background: url(../MULTIMEDIA/ALIENWARE_Glow_Wallpaper_by_lysy1993lbn.png) no-repeat center;}
-100% {left:0px;}
-
-/*alineacion hacia la izquierda*/
 }
 
 
